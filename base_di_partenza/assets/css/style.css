@@ -271,11 +271,8 @@ footer a {
   .related div {
     float: left;
     width: 30%;
-    margin-right: 5%;
-  }
-
-  .related div:nth-child(3n) {
     margin-right: 0;
+    margin-inline: 1.5rem;
   }
 
   table {
