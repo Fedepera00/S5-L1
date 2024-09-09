@@ -49,6 +49,9 @@ header nav li a::before {
 }
 .logo-container {
   margin-bottom: 10px;
+  border: solid #019dc3;
+  padding: 3px;
+  margin-block: 10px;
 }
 
 /* MAIN */
@@ -269,10 +272,9 @@ footer a {
 
   /* ARTICOLI CORRELATI SUL DESKTOP */
   .related div {
-    float: left;
     width: 30%;
     margin-right: 0;
-    margin-inline: 1.5rem;
+    display: inline-block;
   }
 
   table {
